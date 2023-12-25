@@ -1,1 +1,1 @@
-# cognebula
+# symposium
