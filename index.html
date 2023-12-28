@@ -970,22 +970,23 @@
         });
 
         // Add an event listener to handle modal closing
-        document.addEventListener('click', function (event) {
-            var closeButton = event.target.closest('[data-bs-dismiss="modal"]');
-            if (closeButton) {
-                var targetModalId = closeButton.getAttribute('data-bs-target');
+        document.addEventListener('DOMContentLoaded', function () {
+        // Your existing code for opening modals
+        var modalTriggers = document.querySelectorAll('.modal-trigger');
+        modalTriggers.forEach(function (trigger) {
+            trigger.addEventListener('click', function () {
+                var targetModalId = this.getAttribute('data-bs-target');
                 var targetModal = new bootstrap.Modal(document.getElementById(targetModalId));
-                targetModal.hide();
-            }
+                targetModal.show();
+            });
         });
 
-        // Your existing code for capturing the back button press
-        $(document).on('click', '.btn-close-white', function () {
-            // Close the modal
-            $('#exampleModal1').modal('hide');
+        // Add an event listener to handle modal closing
+        document.getElementById('exampleModal1').addEventListener('hide.bs.modal', function () {
             // Prevent default behavior (closing the entire tab)
             return false;
         });
+    });
     });
 </script>
 
