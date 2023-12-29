@@ -4470,11 +4470,11 @@ hr {
 
 /* line 73, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_gallery.scss */
 .gallery-area .box .overlay .overlay-content a {
-  color: #fff;
+  color: #f7f2f2;
   font-size: 20px;
   width: 0;
   height: 0;
-  border-bottom: 100px solid #6A0A98;
+  border-bottom: 100px solid #a90518;
   border-left: 100px solid transparent;
   text-align: center;
   display: inline-block;
@@ -4490,7 +4490,7 @@ hr {
 
 /* line 89, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_gallery.scss */
 .gallery-area .box .overlay .overlay-content p {
-  color: #fff;
+  color: #b90808;
 }
 
 /* line 94, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_gallery.scss */

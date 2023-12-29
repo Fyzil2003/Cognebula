@@ -100,3 +100,42 @@
             </div>
         </section>
     </main>
+
+
+
+
+    <p class="contents">Rules & Regulations :</p>
+                        <p class="contents">Team members: duo vs duo / duo vs solo</p>
+                        <p class="mb-20 contents">BGMI</p>
+                        <p class="contents">Round 1 </p>
+                        <p class="contents">1. Classic erangle</p>
+                        <p class="contents">Round 2</p>
+                        <p class="contents">1. 10(Ten) team will be shortened </p>
+                        <p class="contents">Round 3</p>
+                        <p class="contents">1. 4(Four) team will be shortened and TDM will be conducted for each team</p>
+                        <p class="contents">Round 4</p>
+                        <p class="contents">1. 2(Two) team will be shortened and TDM will be conducted </p>
+                        <p class="contents">Rules: </p>
+                        <p class="contents">1. No internet and no charger will be provided</p>
+                        <p class="contents">2. Triggers are not allowed</p>
+                        <p class="contents">3. Tablet/ipad are not allowed</p>
+                        <p class="mb-20 contents">4. New ACC are not allowed</p>
+                        <p class="mb-20 contents">FREE FIRE</p>
+                        <p class="contents">Round 1</p>
+                        <p class="contents">1. CLASSIC/BERMUDA</p>
+                        <p class="contents">Round 2</p>
+                        <p class="contents">1. 10(Ten) team will be shortened</p>
+                        <p class="contents">Round 3</p>
+                        <p class="contents">1. 4(Four) team will be shortened and ROOM MATCH will be conducted for each team</p>
+                        <p class="contents">Round 4</p>
+                        <p class="mb-20 contents">1. 2(Two) team will be shortened and ROOM MATCH will be conducted</p>
+                        <p class="mb-20 contents">Rules:</p>
+                        <p class="contents">1. All CHARACTER SKILLS and GUN SKIN are allowed </p>
+                        <p class="contents">2. No internet and no charger will be provided</p>
+                        <p class="contents">3. Triggers are not allowed</p>
+                        <p class="contents">4. Tablet/ipad are not allowed</p>
+                        <p class="mb-20 contents">5. New ACC are not allowed</p>
+                        <p class="mb-20 contents">Note:</p>
+                        <p class="mb-20 contents">E - certificate will be provided for every participants</p>
+
+                        <a href="courses.html" class="border-btn">REGISTER NOW</a>
