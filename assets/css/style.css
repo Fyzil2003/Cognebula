@@ -58,6 +58,24 @@
   color: #FF0000;
 }
 
+.home-icon {
+  /* position: fixed; */
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.home-icon a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home-icon i {
+  margin-right: 20px;
+}
+
 /* line 50, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
