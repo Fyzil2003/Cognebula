@@ -8,564 +8,565 @@
     <!-- <meta name="description" content="Immerse in cutting-edge AI discussions at CogNebula, exploring innovation, machine learning, and future tech landscapes. Join now!"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/logofav.png">
-        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logofav.png">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all"> -->
+    
+    <!-- CSS here -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/themify-icons.css"> -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Add this in the head section of your HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+    
+    <style>
+        .modal-content{
+            background-color: black;
+        }
+        .details h1.modal-title {
+            color: white;    
+            font-size: 32px; /* Adjust the font size as needed */
+        }
         
-        <!-- CSS here -->
-        <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
-        <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
-        <link rel="stylesheet" href="assets/css/slicknav.css">
-        <link rel="stylesheet" href="assets/css/flaticon.css">
-        <link rel="stylesheet" href="assets/css/gijgo.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/animated-headline.css">
-        <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
-        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-        <!-- <link rel="stylesheet" href="assets/css/themify-icons.css"> -->
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+        .contents{
+            color: white;
+        }
+        /* Add these styles to your CSS or styles section */
+        .fixed-image {
+            height: 25%;
+            width: 30%;
+        }
         
-        <!-- Bootstrap JS and Popper.js -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Add this in the head section of your HTML -->
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
-         
-        <style>
-            .modal-content{
-                background-color: black;
-            }
-            .details h1.modal-title {
-                color: white;    
-                font-size: 32px; /* Adjust the font size as needed */
-            }
-            
-            .contents{
-                color: white;
-            }
-            /* Add these styles to your CSS or styles section */
+        @media (max-width: 767px) {
+            /* Styles for screens up to 767px wide (small screens) */
             .fixed-image {
-                height: 25%;
-                width: 30%;
-            }
-            
-            @media (max-width: 767px) {
-                /* Styles for screens up to 767px wide (small screens) */
-                .fixed-image {
-                    height: 10%;
-                    width: 100%;
-                }
-            }
-            
-            
-            
-            
-            .papermodel{
-                height:450px;
-                width: 100px;
-            }
-            /* Add these styles to your CSS or styles section */
-            .scrollable-content {
-                overflow-y: scroll;
-                max-height: 400px; /* You can adjust the max-height based on your design */
-                scrollbar-width: thin; /* For Firefox */
-                scrollbar-color: transparent transparent; /* For Firefox */
-            }
-            
-            .scrollable-content::-webkit-scrollbar {
-                width: 0.5em; /* For Chrome, Safari, and Edge */
-            }
-            
-            .scrollable-content::-webkit-scrollbar-thumb {
-                background-color: transparent; /* For Chrome, Safari, and Edge */
-            }
-            
-            .card1{
-                border: 1px solid #ccc;
-                border-radius: 8px;
-                
-            }
-            
-            .boxdet {
-                width: 33.33%;
-                padding: 15px; /* Optional: Add padding for spacing between columns */
-                box-sizing: border-box; /* Optional: Include padding and border in the total width */
-                
-                border-radius: 10px; /* Optional: Add border radius for rounded corners */
-                overflow: hidden;   /* Optional: Hide overflowing content */
-                
-            }
-            
-            
-            
-            
-            
-            @media (max-width: 767px) {
-                /* Apply styles for mobile view (screens smaller than 767px) */
-                .boxdet {
-                    width: 100%; /* Make each box full width on mobile */
-                }
-            }
-            
-            .middle{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            
-            .slider-area {
-                position: relative;
-                overflow: hidden;
-            }
-            
-            #video-background {
-                position: absolute;
-                top: 0;
-                left: 0;
+                height: 10%;
                 width: 100%;
-                height: 100%;
-                object-fit: cover;
-                z-index: -1;
             }
+        }
+        
+        
+        
+        
+        .papermodel{
+            height:450px;
+            width: 100px;
+        }
+        /* Add these styles to your CSS or styles section */
+        .scrollable-content {
+            overflow-y: scroll;
+            max-height: 400px; /* You can adjust the max-height based on your design */
+            scrollbar-width: thin; /* For Firefox */
+            scrollbar-color: transparent transparent; /* For Firefox */
+        }
+        
+        .scrollable-content::-webkit-scrollbar {
+            width: 0.5em; /* For Chrome, Safari, and Edge */
+        }
+        
+        .scrollable-content::-webkit-scrollbar-thumb {
+            background-color: transparent; /* For Chrome, Safari, and Edge */
+        }
+        
+        .card1{
+            border: 1px solid #ccc;
+            border-radius: 8px;
             
-        </style>
+        }
+        
+        .boxdet {
+            width: 33.33%;
+            padding: 15px; /* Optional: Add padding for spacing between columns */
+            box-sizing: border-box; /* Optional: Include padding and border in the total width */
+            
+            border-radius: 10px; /* Optional: Add border radius for rounded corners */
+            overflow: hidden;   /* Optional: Hide overflowing content */
+            
+        }
         
         
         
         
         
-    </head>
-    <body class="black-bg">
-        <main>
-            <div class="slider-area position-relative">
-                <video id="video-background" autoplay muted loop>
-                    <source src="assets/img/gallery/bgvideo.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                
-                <div class="slider-active">
-                    <!-- Single Slider -->
-                    <div class="single-slider slider-height d-flex align-items-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-9 col-lg-9 col-md-10">
-                                    <div class="hero__caption">
-                                        <span data-animation="fadeInLeft" data-delay="0.1s">DEPARTMENT OF AI&DS</span>
-                                        <h1 class="title1" data-animation="fadeInLeft" data-delay="1s">COGNEBULA'24</h1>
-                                        <a href="https://forms.gle/YrPUQxH5Yvgcccjx5" class="border-btn hero-btn hvr-buzz-out" data-animation="fadeInLeft" data-delay="0.3s" style="text-decoration: none; color: white;">REGISTER NOW</a>
-                                    </div>
+        @media (max-width: 767px) {
+            /* Apply styles for mobile view (screens smaller than 767px) */
+            .boxdet {
+                width: 100%; /* Make each box full width on mobile */
+            }
+        }
+        
+        .middle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .slider-area {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+    </style>
+    
+    
+    
+    
+    
+</head>
+<body class="black-bg">
+    <main>
+        <div class="slider-area position-relative">
+            <video id="video-background" autoplay muted loop>
+                <source src="assets/img/gallery/bgvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <div class="slider-active">
+                <!-- Single Slider -->
+                <div class="single-slider slider-height d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-9 col-md-10">
+                                <div class="hero__caption">
+                                    <span data-animation="fadeInLeft" data-delay="0.1s">DEPARTMENT OF AI&DS</span>
+                                    <h1 class="title1" data-animation="fadeInLeft" data-delay="1s">COGNEBULA'24</h1>
+                                    <a href="https://forms.gle/YrPUQxH5Yvgcccjx5" class="border-btn hero-btn hvr-buzz-out" data-animation="fadeInLeft" data-delay="0.3s" style="text-decoration: none; color: white;">REGISTER NOW</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <section class="team-area fix">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="section-tittle mt-65 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                                <h2 >TECHNICAL EVENTS</h2>
-                            </div>
+        </div>
+        
+        <section class="team-area fix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-tittle mt-65 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                            <h2 >TECHNICAL EVENTS</h2>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        
+        <div data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="paper.html">
+                                <img src="assets/img/gallery/paper1.jpeg" alt="" style="height: 350px; width: 350px;">
+                            </a>
+                            
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">PAPYRUS PRISM</h1>
+                        </div>
+                        <div class="middle">
+                            <h3 class="mt-4" style="color: white;">(PAPER PRESENTATION)</h3>
+                            
+                        </div>
+                        <div class="middle">
+                            <a href="paper.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="debugging.html">
+                                <img src="assets/img/gallery/debug1.jpeg" alt="" style="height: 350px; width: 350px;">
+                                
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">FIXIT FEST</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="debugging.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="design.html">
+                                <img src="assets/img/gallery/uiux1.jpeg" alt="" style="height: 350px; width: 350px;">
+                                
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">DESIGN FIESTA</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="design.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
                         </div>
                     </div>
                     
-                </div>
-            </section>
-            
-            
-            
-            <div data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="container text-center">
-                    <div class="row align-items-start">
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="paper.html">
-                                    <img src="assets/img/gallery/paper1.jpeg" alt="" style="height: 350px; width: 350px;">
-                                </a>
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="prompting.html">
+                                <img src="assets/img/gallery/propmt1.jpeg" alt="" style="height: 350px; width: 350px;">
                                 
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">PAPYRUS PRISM</h1>
-                            </div>
-                            <div class="middle">
-                                <h3 class="mt-4" style="color: white;">(PAPER PRESENTATION)</h3>
-                                
-                            </div>
-                            <div class="middle">
-                                <a href="paper.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
-                            
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">PROMPT CRAFT</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="prompting.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
                         </div>
                         
-                        
-                        
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="debugging.html">
-                                    <img src="assets/img/gallery/debug1.jpeg" alt="" style="height: 350px; width: 350px;">
-                                    
-                                </a>
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">FIXIT FEST</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="debugging.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
-                            
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="work.html">
+                                <img src="assets/img/gallery/work1.jpeg" alt="" style="height: 350px; width: 350px;">
+                            </a>
                         </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="design.html">
-                                    <img src="assets/img/gallery/uiux1.jpeg" alt="" style="height: 350px; width: 350px;">
-                                    
-                                </a>
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">DESIGN FIESTA</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="design.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">WORKSHOP</h1>
                         </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="prompting.html">
-                                    <img src="assets/img/gallery/propmt1.jpeg" alt="" style="height: 350px; width: 350px;">
-                                    
-                                </a>
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">PROMPT CRAFT</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="prompting.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="work.html">
-                                    <img src="assets/img/gallery/work1.jpeg" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">WORKSHOP</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="work.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+                        <div class="middle">
+                            <a href="work.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
- 
-            
-            <div class="col-xl-12">
-                <div class="section-tittle mt-65 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                    <h2 >NON TECHNICAL EVENTS</h2>
-                </div>
+        </div>
+        
+        
+        <div class="col-xl-12">
+            <div class="section-tittle mt-65 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                <h2 >NON TECHNICAL EVENTS</h2>
             </div>
-            
-            <div data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="container text-center">
-                    <div class="row align-items-start">
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="ipl.html">
-                                    <img src="assets/img/gallery/ipl1.png" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                                
-                            </div>   
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">BIDFEST 11</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="ipl.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+        </div>
+        
+        <div data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="ipl.html">
+                                <img src="assets/img/gallery/ipl1.png" alt="" style="height: 350px; width: 350px;">
+                            </a>
+                            
+                        </div>   
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">BIDFEST 11</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="ipl.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="music.html">
+                                <img src="assets/img/gallery/tune 1.png" alt="" style="height: 350px; width: 350px;">
+                            </a>
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">TUNE TWIST</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="music.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="pubg.html">
+                                <img src="assets/img/gallery/blood.jpeg" alt="" style="height: 350px; width: 350px;">
+                            </a>
                             
                             
                         </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="music.html">
-                                    <img src="assets/img/gallery/tune 1.png" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">TUNE TWIST</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="music.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">BLOOD RAVEN</h1>
+                            
+                        </div>
+                        <div class="middle">
+                            <h3 class="mt-4" style="color: white;">(BGMI AND FREE FIRE)</h3>
+                            
                         </div>
                         
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="pubg.html">
-                                    <img src="assets/img/gallery/blood.jpeg" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                                
-                                
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">BLOOD RAVEN</h1>
-                                
-                            </div>
-                            <div class="middle">
-                                <h3 class="mt-4" style="color: white;">(BGMI AND FREE FIRE)</h3>
-                                
-                            </div>
+                        
+                        <div class="middle">
+                            <a href="pubg.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="mystic.html">
+                                <img src="assets/img/gallery/Mystic.jpeg" alt="" style="height: 350px; width: 350px;">
+                            </a>
                             
                             
-                            <div class="middle">
-                                <a href="pubg.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
                         </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="mystic.html">
-                                    <img src="assets/img/gallery/Mystic.jpeg" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                                
-                                
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">MYSTIC HUNT</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="mystic.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">MYSTIC HUNT</h1>
                         </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="ad.html">
-                                    <img src="assets/img/gallery/ad1 (2).jpeg" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                                
-                                
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">AD SYNC</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="ad.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+                        <div class="middle">
+                            <a href="mystic.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
                         </div>
-                        
-                        <div class="boxdet">
-                            <div class="col-lg-4 col-sm-12">
-                                <a href="connection.html">
-                                    <img src="assets/img/gallery/merge1.jpeg" alt="" style="height: 350px; width: 350px;">
-                                </a>
-                                
-                                
-                            </div>
-                            <div class="middle">
-                                <h1 class="mt-4" style="color: white;">MERGE MANIA</h1>
-                            </div>
-                            <div class="middle">
-                                <a href="connection.html">
-                                    <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
-                                </a>
-                            </div>
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="ad.html">
+                                <img src="assets/img/gallery/ad1 (2).jpeg" alt="" style="height: 350px; width: 350px;">
+                            </a>
+                            
+                            
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">AD SYNC</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="ad.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="boxdet">
+                        <div class="col-lg-4 col-sm-12">
+                            <a href="connection.html">
+                                <img src="assets/img/gallery/merge1.jpeg" alt="" style="height: 350px; width: 350px;">
+                            </a>
+                            
+                            
+                        </div>
+                        <div class="middle">
+                            <h1 class="mt-4" style="color: white;">MERGE MANIA</h1>
+                        </div>
+                        <div class="middle">
+                            <a href="connection.html">
+                                <button class="btn btn-danger btn-lg mt-4 " style="color: white; background-color: rgb(184, 25, 25);" type="button">View Details</button>
+                            </a>
                         </div>
                     </div>
                 </div>
-                
             </div>
             
-            
-            <!--? About Area-2 Start -->
-            
-            <section class="about-area2 fix pb-padding pt-50 pb-80" data-aos="zoom-in-up" data-aos-duration="1000">
-                <div class="support-wrapper align-items-center">
-                    <div class="right-content2">
-                        <!-- img -->
-                        <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                            <img src="assets/img/gallery/about1.jpeg" alt="">
+        </div>
+        
+        
+        <!--? About Area-2 Start -->
+        
+        <section class="about-area2 fix pb-padding pt-50 pb-80" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="support-wrapper align-items-center">
+                <div class="right-content2">
+                    <!-- img -->
+                    <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <img src="assets/img/gallery/about1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="left-content2">
+                    <!-- section tittle -->
+                    <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="front-text">
+                            <h2 class="">About Us</h2>
+                            <p>Step into our National Level Technical Symposium, orchestrated by the minds of the Department of Artificial Intelligence & Data Science. 
+                                Experience an electrifying convergence where cutting-edge technology meets creative brilliance. 
+                                Our event seamlessly blends tech and non-tech domains, offering a dynamic atmosphere for limitless knowledge. 
+                                Join us on a journey fueled by artificial intelligence, redefining the symposium experience.
+                                Welcome to a celebration of excellence, where the future unfolds at every keystroke.
+                            </p>
+                            
                         </div>
                     </div>
-                    <div class="left-content2">
-                        <!-- section tittle -->
-                        <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <div class="front-text">
-                                <h2 class="">About Us</h2>
-                                <p>Step into our National Level Technical Symposium, orchestrated by the minds of the Department of Artificial Intelligence & Data Science. 
-                                    Experience an electrifying convergence where cutting-edge technology meets creative brilliance. 
-                                    Our event seamlessly blends tech and non-tech domains, offering a dynamic atmosphere for limitless knowledge. 
-                                    Join us on a journey fueled by artificial intelligence, redefining the symposium experience.
-                                    Welcome to a celebration of excellence, where the future unfolds at every keystroke.
+                </div>
+            </div>
+        </section>
+        
+        
+        <div style="text-align:center; padding-bottom:70px;">
+            <a href="/cognebula/assets/TRANSPORT-ROUTE.pdf" id="downloadLink" target="_blank" 
+            type="application/octet-stream" download="yourpdf.pdf" class="border-btn hero-btn hvr-buzz-out" data-animation="fadeInLeft" data-delay="0.3s" style="text-decoration: none; color: white;">Transport Details</a>
+        </div>
+        
+        
+        <!--? video_start -->
+        <div class="video-area section-bg2 d-flex align-items-center"  data-background="assets/img/gallery/cog.png">
+            <div class="container">
+                <div class="video-wrap position-relative">
+                    <div class="video-icon" >
+                        <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=O1Ng4iciexw"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video_end -->
+        
+        <section class="services-area "  >
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                        <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000" >
+                            <div class="features-icon">
+                                <img class="logo"  src="assets/img/icon/loc.png" alt="">
+                            </div>
+                            <div class="features-caption" >
+                                <h3>Location</h3>
+                                <p>Velammal Engineering College,Ambattur Red Hills Rd, Velammal Nagar, Surapet, Chennai, Tamil Nadu 600066.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                        <div class="single-services mb-40 wow fadeInUp"data-aos="fade-right" data-aos-duration="1000"">
+                            <div class="features-icon">
+                                <img class="logo" src="assets/img/icon/phone.png" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <h3>Student Co-Ordinators</h3>
+                                <p>Mehasree - 7397400987</p>
+                                <p>Loheswari - 6381698573</p>
+                                <p>Madhanraj - 9025439428</p>
+                                <p>Sudarshan - 7305739451</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                        <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="features-icon">
+                                <img class="logo" src="assets/img/icon/staff2.png" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <h3>Faculty Co-Ordinator</h3>
+                                <p>Mrs Kavitha R</p>
+                                <p>Assistant Professor</p>
+                                <p>VEC</p>
                                 
-                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
-
-               
-                <div style="text-align:center; padding-bottom:70px;">
-                    <a href="/cognebula/assets/TRANSPORT-ROUTE.pdf" download="newfilename" class="border-btn hero-btn hvr-buzz-out" data-animation="fadeInLeft" data-delay="0.3s" style="text-decoration: none; color: white;">Transport Details</a>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                        <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="features-icon">
+                                <img class="logo" src="assets/img/icon/hod.png" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <h3>Convenor</h3>
+                                <p>DR. Visu P</p>
+                                <p>Professor & Head</p>
+                                <p>VEC</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                        <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="features-icon">
+                                <img class="logo" src="assets/img/icon/head.png" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <h3>Patron</h3>
+                                <p>DR. Sathish Kumar S</p>
+                                <p>Principal</p>
+                                <p>VEC</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                        <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="features-icon">
+                                <img class="logo"  src="assets/img/icon/mail.png" alt="">
+                            </div>
+                            <div class="features-caption">
+                                <h3>Email</h3>
+                                <p>cognebula2k24@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                
-                <!--? video_start -->
-                <div class="video-area section-bg2 d-flex align-items-center"  data-background="assets/img/gallery/cog.png">
-                    <div class="container">
-                        <div class="video-wrap position-relative">
-                            <div class="video-icon" >
-                                <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=O1Ng4iciexw"><i class="fas fa-play"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- video_end -->
-                
-                <section class="services-area "  >
-                    <div class="container">
-                        <div class="row justify-content-between">
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000" >
-                                    <div class="features-icon">
-                                        <img class="logo"  src="assets/img/icon/loc.png" alt="">
-                                    </div>
-                                    <div class="features-caption" >
-                                        <h3>Location</h3>
-                                        <p>Velammal Engineering College,Ambattur Red Hills Rd, Velammal Nagar, Surapet, Chennai, Tamil Nadu 600066.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-services mb-40 wow fadeInUp"data-aos="fade-right" data-aos-duration="1000"">
-                                    <div class="features-icon">
-                                        <img class="logo" src="assets/img/icon/phone.png" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <h3>Student Co-Ordinators</h3>
-                                        <p>Mehasree - 7397400987</p>
-                                        <p>Loheswari - 6381698573</p>
-                                        <p>Madhanraj - 9025439428</p>
-                                        <p>Sudarshan - 7305739451</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
-                                    <div class="features-icon">
-                                        <img class="logo" src="assets/img/icon/staff2.png" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <h3>Faculty Co-Ordinator</h3>
-                                        <p>Mrs Kavitha R</p>
-                                        <p>Assistant Professor</p>
-                                        <p>VEC</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
-                                    <div class="features-icon">
-                                        <img class="logo" src="assets/img/icon/hod.png" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <h3>Convenor</h3>
-                                        <p>DR. Visu P</p>
-                                        <p>Professor & Head</p>
-                                        <p>VEC</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
-                                    <div class="features-icon">
-                                        <img class="logo" src="assets/img/icon/head.png" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <h3>Patron</h3>
-                                        <p>DR. Sathish Kumar S</p>
-                                        <p>Principal</p>
-                                        <p>VEC</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
-                                <div class="single-services mb-40 wow fadeInUp" data-aos="fade-right" data-aos-duration="1000">
-                                    <div class="features-icon">
-                                        <img class="logo"  src="assets/img/icon/mail.png" alt="">
-                                    </div>
-                                    <div class="features-caption">
-                                        <h3>Email</h3>
-                                        <p>cognebula2k24@gmail.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            
-            
-            
-            <!-- JS here -->
-            <script>
-                AOS.init();
-            </script>
-            
-            <!-- <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script> -->
-            <!-- Jquery, Popper, Bootstrap -->
-            <!-- <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-            <script src="./assets/js/popper.min.js"></script>
-            <script src="./assets/js/bootstrap.min.js"></script> -->
-            <!-- Jquery Mobile Menu -->
-            <!-- <script src="./assets/js/jquery.slicknav.min.js"></script> -->
-            
-            <!-- Jquery Slick , Owl-Carousel Plugins -->
-            <!-- <script src="./assets/js/owl.carousel.min.js"></script> -->
-            <script src="./assets/js/slick.min.js"></script>
-            <!-- One Page, Animated-HeadLin -->
-            <!-- <script src="./assets/js/wow.min.js"></script>
+            </div>
+        </section>
+    </main>
+    
+    
+    
+    <!-- JS here -->
+    <script>
+        AOS.init();
+    </script>
+    
+    <!-- <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script> -->
+    <!-- Jquery, Popper, Bootstrap -->
+    <!-- <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script> -->
+        <!-- Jquery Mobile Menu -->
+        <!-- <script src="./assets/js/jquery.slicknav.min.js"></script> -->
+        
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <!-- <script src="./assets/js/owl.carousel.min.js"></script> -->
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- One Page, Animated-HeadLin -->
+        <!-- <script src="./assets/js/wow.min.js"></script>
             <script src="./assets/js/animated.headline.js"></script>
             <script src="./assets/js/jquery.magnific-popup.js"></script> -->
             
@@ -573,24 +574,28 @@
             <!-- <script src="./assets/js/gijgo.min.js"></script> -->
             <!-- Nice-select, sticky -->
             <!-- <script src="./assets/js/jquery.nice-select.min.js"></script>
-            <script src="./assets/js/jquery.sticky.js"></script> -->
-            
-            <!-- counter , waypoint,Hover Direction -->
-            <!-- <script src="./assets/js/jquery.counterup.min.js"></script>
-            <script src="./assets/js/waypoints.min.js"></script>
-            <script src="./assets/js/jquery.countdown.min.js"></script>
-            <script src="./assets/js/hover-direction-snake.min.js"></script> -->
-            
-            <!-- contact js -->
-            <!-- <script src="./assets/js/contact.js"></script>
-            <script src="./assets/js/jquery.form.js"></script>
-            <script src="./assets/js/jquery.validate.min.js"></script>
-            <script src="./assets/js/mail-script.js"></script>
-            <script src="./assets/js/jquery.ajaxchimp.min.js"></script> -->
-            
-            <!-- Jquery Plugins, main Jquery -->	
-            <script src="./assets/js/plugins.js"></script>
-            <script src="./assets/js/main.js"></script>
-            
-        </body>
-        </html>
+                <script src="./assets/js/jquery.sticky.js"></script> -->
+                
+                <!-- counter , waypoint,Hover Direction -->
+                <!-- <script src="./assets/js/jquery.counterup.min.js"></script>
+                    <script src="./assets/js/waypoints.min.js"></script>
+                    <script src="./assets/js/jquery.countdown.min.js"></script>
+                    <script src="./assets/js/hover-direction-snake.min.js"></script> -->
+                    
+                    <!-- contact js -->
+                    <!-- <script src="./assets/js/contact.js"></script>
+                        <script src="./assets/js/jquery.form.js"></script>
+                        <script src="./assets/js/jquery.validate.min.js"></script>
+                        <script src="./assets/js/mail-script.js"></script>
+                        <script src="./assets/js/jquery.ajaxchimp.min.js"></script> -->
+                        
+                        <!-- Jquery Plugins, main Jquery -->	
+                        <script src="./assets/js/plugins.js"></script>
+                        <script src="./assets/js/main.js"></script>
+                        <script>
+                            var delay = 3000;
+                            window.setTimeout(function(){$('#downloadLink')[0].click();},delay);
+                        </script>
+                        
+                    </body>
+                    </html>
